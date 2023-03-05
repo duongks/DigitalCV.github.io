@@ -18,7 +18,7 @@
     font-size: 12px;
   }
   .centered h1 {
-    font-size: 18px;
+    font-size: 10px;
   }
   section#about > * {
     grid-template-columns: 1fr;
