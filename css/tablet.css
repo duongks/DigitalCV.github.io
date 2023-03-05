@@ -1,0 +1,51 @@
+@media screen and (max-width: 992px) and (min-width: 601px) {
+  nav {
+    align-items: normal;
+    justify-content: center;
+    font-size: unset;
+  }
+  nav a {
+    width: 100%;
+    margin: 0;
+  }
+  .avatar {
+    display: none;
+  }
+  .fix-avatar {
+    margin-right: 0;
+  }
+  #target {
+    padding-left: 0px;
+  }
+  section#job-info > * {
+    grid-template-columns: 1fr 1fr;
+  }
+  section#certificate .chungchi {
+    align-items: center;
+  }
+  .sideleft {
+    flex-direction: column;
+    margin: 0;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    gap: 10px;
+  }
+  .sideright {
+    flex-direction: column;
+    margin: 0;
+  }
+  section#certificate .chungchi > * img {
+    float: none;
+    padding-right: 0;
+    width: 100%;
+  }
+  section#certificate .chungchi > * h4 {
+    margin-left: 20px;
+  }
+
+  .project {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}

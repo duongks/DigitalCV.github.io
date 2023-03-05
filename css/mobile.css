@@ -1,0 +1,69 @@
+@media screen and (max-width: 600px) {
+  section > .container {
+    width: auto;
+  }
+  nav {
+    flex-direction: column;
+    align-items: normal;
+    background-color: unset;
+    border: 0;
+  }
+  nav a {
+    width: 100%;
+  }
+  .avatar {
+    display: none;
+  }
+
+  section#about > * {
+    grid-template-columns: 1fr;
+  }
+  #personal-info {
+    padding-left: 0;
+  }
+  #target p {
+    padding-top: 10px;
+  }
+  #personal-info ul {
+    padding-top: 10px;
+  }
+  #personal-info h1 {
+    padding-left: 0;
+  }
+  section#job-info > * {
+    grid-template-columns: 1fr;
+  }
+
+  section#certificate .chungchi {
+    flex-direction: column;
+    align-items: center;
+  }
+  .sideleft {
+    flex-direction: column;
+    margin: 0;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    gap: 10px;
+  }
+  .sideright {
+    flex-direction: column;
+    margin: 0;
+    border-top: 1px solid rgba(255, 68, 0, 0.185);
+    border-left: 0;
+    padding: 40px 20px 0 20px;
+  }
+  section#certificate .chungchi > * img {
+    float: none;
+    padding-right: 0;
+    width: 100%;
+  }
+  section#certificate .chungchi > * h4 {
+    margin-left: 20px;
+  }
+
+  .project {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
