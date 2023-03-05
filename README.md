@@ -44,5 +44,5 @@ Assignment 02 Stater
 │  └─ project_3.png
 └─ index.html
 
-https://duongks.github.io/digitalCV
+https://duongks.DigitalCV.github.io.git
 ```
