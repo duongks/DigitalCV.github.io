@@ -14,7 +14,12 @@
   .avatar {
     display: none;
   }
-
+  .centered {
+    font-size: 16px;
+  }
+  .centered h1 {
+    font-size: 20px;
+  }
   section#about > * {
     grid-template-columns: 1fr;
   }
