@@ -71,3 +71,8 @@ function myFunction() {
     hiddeFrom.style.display = "none";
   }
 }
+let avatar = document.getElementById("avatar");
+if (window.innerWidth < screen.width - 10) {
+  console.log("........");
+  avatar.style.display = "none";
+}
